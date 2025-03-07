@@ -1,0 +1,16 @@
+.navbar-custom {
+    background-color: #003A5D; /* Dark Blue */
+}
+.navbar-custom .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+}
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #f8c93e; /* Golden color on hover */
+}
+.navbar-custom .navbar-toggler-icon {
+    background-color: #ffffff;
+}

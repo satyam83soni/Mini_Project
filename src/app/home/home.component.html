@@ -1,0 +1,56 @@
+<section class="hero-section text-center text-white" style="background: url('https://www.freepik.com/free-photo/travel-insurance-background.jpg') no-repeat center center/cover; height: 80vh; display: flex; align-items: center; justify-content: center;">
+    <div class="container" style="background: rgba(0, 58, 93, 0.7); padding: 50px; border-radius: 10px;">
+      <h1 class="display-4 fw-bold">Travel Insurance for Your USA Journey</h1>
+      <p class="lead">Secure your trip with comprehensive coverage for up to two travelers.</p>
+      <a href="offerrings" class="btn btn-primary btn-lg mt-3">Get Your Quote</a>
+    </div>
+  </section>
+  
+  <section id="plans" class="py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Our Insurance Plans</h2>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-lg">
+            <div class="card-body">
+              <h5 class="card-title">Single Traveler Plan</h5>
+              <p class="card-text">Comprehensive coverage for one traveler to the USA.</p>
+              <button  class="btn btn-primary" (click)="toggle1()">View Details</button>
+            </div>
+            <div *ngIf="show1" >
+                <p>This plan covers the single time Journey for travel.</p>
+                <p>It covers the travel only one time, and upto the date of plan.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card shadow-lg">
+            <div class="card-body">
+              <h5 class="card-title">Two Travelers Plan</h5>
+              <p class="card-text">Tailored coverage for two travelers to the USA.</p>
+              <button  class="btn btn-primary" (click)="toggle2()">View Details</button>
+            </div>
+            <div *ngIf="show2" >
+                <p>This plan covers the whole year  Journey for travel.</p>
+                <p>It covers the travel only for one year, and upto the date of plan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="about-section py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="mb-4">Why Choose Us?</h2>
+      <p class="lead">We provide fast, secure, and affordable travel insurance for USA travelers with hassle-free claims and 24/7 support.</p>
+    </div>
+  </section>
+  
+  <section class="contact-section py-5 text-center" style="background-color: #003A5D; color: white;">
+    <div class="container">
+      <h2 class="mb-4">Have Questions?</h2>
+      <p class="lead">Our team is here to help you. Contact us for any inquiries or assistance.</p>
+      <a href="#" class="btn btn-light">Contact Us</a>
+    </div>
+  </section>
